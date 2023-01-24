@@ -14,6 +14,8 @@ spring:
     properties: # property 사용 설정
       hibernate: # hibernate property 설정
         format_sql: true
+        default_batch_fetch_size : 100
+    #open-in-view: false
 
 # 로그 레벨 설정
 logging:
